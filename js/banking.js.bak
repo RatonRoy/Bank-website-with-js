@@ -1,4 +1,4 @@
-/* // select the html elements 
+// select the html elements 
 const depositAmount = document.getElementById('deposit-amount');
 // console.log(depositAmount);
 const withdrawAmount = document.getElementById('withdraw-amount');
@@ -11,8 +11,7 @@ const withdrawBtn = document.getElementById('withdraw-btn');
 // add event listener on the deposite btn 
 depositeBtn.addEventListener('click', function () {
     // get the field value 
-  const depositeFieldValue = depositeField.value; 
-  // 
+    const depositeFieldValue = depositeField.value; 
     const previousDepositeValue = depositAmount.innerText;
     // totall deposite value with new amount 
     const totallAmount = parseFloat(previousDepositeValue) + parseFloat(depositeFieldValue);
@@ -41,4 +40,10 @@ withdrawBtn.addEventListener('click', function () {
     balanceAmount.innerText = remainingBalance;
     withdrawField.value = " ";
     
-}) */
+})
+
+
+
+const nameOfOrganization = document.getElementById("name").value;
+   
+console.log(nameOfOrganization);
